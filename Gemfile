@@ -58,7 +58,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
-  #postgres prodction database for heroku
+  #postgres production database for heroku
   gem 'pg'
   #rails gem for production for heroku
   gem 'rails_12factor'
