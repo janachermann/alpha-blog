@@ -10,6 +10,9 @@ end
 gem 'rails', '~> 5.1.6'
 # Use Puma as the app server
 gem 'bcrypt', '~> 3.1.7'
+#pagination gems according to udemy railsdev course (mashrur)
+gem 'will_paginate', '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
 #hopefully this is the right spot, otherwise.. below puma right below... below!?!
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
